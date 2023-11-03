@@ -1,0 +1,71 @@
+.header_background {
+    background-image: url('../../public/placeholder_orgfeed.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    
+}
+
+.header_design {
+    
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+
+    padding: 20PX;
+    
+}
+
+.header_imagebox {
+    padding-left: 40px;
+}
+
+.avatar_design {
+    
+    position: relative;
+    top: -60%;
+    
+}
+
+.sample_design {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: fit-content;
+    margin-right: 70px;
+}
+
+
+.button_group{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.iconbtn_design {
+    background-color: #042A5B;
+    color: white;
+    height: 50px;
+    width: 70px;
+    border-radius: 16px;
+    font-weight: bold;
+   
+}
+
+.iconbtn_design:hover, 
+.button_design:hover {
+    background-color: #023E8A;
+}
+
+
+.button_design {
+    background-color: #042A5B;
+    height: 50px;
+    width: 150px;
+    border-radius: 16px;
+    font-weight: bold;
+}

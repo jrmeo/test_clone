@@ -1,0 +1,77 @@
+.appbar_design, .box_design {
+
+    width: 95%;
+    height: 90px;
+    
+    margin-top: 15px;
+    border-radius: 36px;
+    
+}
+
+.appbar_design {
+    background-color: #032D61E5;
+    
+    
+    justify-content: center;
+    
+}
+
+.box_design {
+    
+    position: absolute;
+    left: 50%;
+    transform: translateX(-48%);
+    
+}
+
+.toolbar_design {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* ======================================== */
+
+.link_group {
+    display: flex;
+    flex-direction: row;
+
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button_group {
+    display: flex;
+    flex-direction: row;
+
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button_design {
+    border-radius: 24px;
+    border: solid #426085;
+
+    height: 50px;
+    width: 140px;
+    font-weight: bold;
+    
+}
+
+.button_profile {
+    border-radius: 24px;
+    border: solid #426085;
+
+    height: 50px;
+    width: auto;
+    font-weight: bold;
+}
+
