@@ -7,8 +7,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import { supabase } from '../client';
+import { useRouter } from 'next/navigation'
 
 export default function Login() {
+  const router = useRouter()
   const [formData, setFormData] = useState({
     email: '',
     password: ''
@@ -29,15 +31,16 @@ export default function Login() {
         password: formData.password,
       });
       if (error) {
-        alert(error.message);
+        alert(error.message); 
       } else {
         alert('Successfully Logged In!');
+        // Redirect the user after successful login
+        router.push('/organization_feed');
       }
     } catch (error) {
-      alert(error.message);
+      alert('An error occurred while logging in.'); 
     }
   }
-
   return (
     <div className={style.container}>
       <div className={style.logo_box}>

@@ -1,0 +1,81 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/components/navbar/navbar.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.navbar_appbar_design__pVcGM, .navbar_box_design__Im0dg {
+
+    width: 95%;
+    height: 90px;
+    
+    margin-top: 15px;
+    border-radius: 36px;
+    
+}
+
+.navbar_appbar_design__pVcGM {
+    background-color: #032D61E5;
+    
+    
+    justify-content: center;
+    
+}
+
+.navbar_box_design__Im0dg {
+    
+    position: absolute;
+    left: 50%;
+    transform: translateX(-48%);
+    
+}
+
+.navbar_toolbar_design__oZOmi {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* ======================================== */
+
+.navbar_link_group__IqAHz {
+    display: flex;
+    flex-direction: row;
+
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar_button_group__d3Mq0 {
+    display: flex;
+    flex-direction: row;
+
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar_button_design__RKUOE {
+    border-radius: 24px;
+    border: solid #426085;
+
+    height: 50px;
+    width: 140px;
+    font-weight: bold;
+    
+}
+
+.navbar_button_profile__psbfm {
+    border-radius: 24px;
+    border: solid #426085;
+
+    height: 50px;
+    width: auto;
+    font-weight: bold;
+}
+
+

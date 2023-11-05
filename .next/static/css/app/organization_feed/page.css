@@ -1,0 +1,157 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/components/navbar/navbar.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.navbar_appbar_design__pVcGM, .navbar_box_design__Im0dg {
+
+    width: 95%;
+    height: 90px;
+    
+    margin-top: 15px;
+    border-radius: 36px;
+    
+}
+
+.navbar_appbar_design__pVcGM {
+    background-color: #032D61E5;
+    
+    
+    justify-content: center;
+    
+}
+
+.navbar_box_design__Im0dg {
+    
+    position: absolute;
+    left: 50%;
+    transform: translateX(-48%);
+    
+}
+
+.navbar_toolbar_design__oZOmi {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* ======================================== */
+
+.navbar_link_group__IqAHz {
+    display: flex;
+    flex-direction: row;
+
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar_button_group__d3Mq0 {
+    display: flex;
+    flex-direction: row;
+
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar_button_design__RKUOE {
+    border-radius: 24px;
+    border: solid #426085;
+
+    height: 50px;
+    width: 140px;
+    font-weight: bold;
+    
+}
+
+.navbar_button_profile__psbfm {
+    border-radius: 24px;
+    border: solid #426085;
+
+    height: 50px;
+    width: auto;
+    font-weight: bold;
+}
+
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./app/organization_feed/orgfeed.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.orgfeed_header_background__BHjry {
+    background-image: url(/_next/static/media/placeholder_orgfeed.152e2752.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    
+}
+
+.orgfeed_header_design__cc6zn {
+    
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+
+    padding: 20PX;
+    
+}
+
+.orgfeed_header_imagebox__DH_nq {
+    padding-left: 40px;
+}
+
+.orgfeed_avatar_design__7lEYC {
+    
+    position: relative;
+    top: -60%;
+    
+}
+
+.orgfeed_sample_design__lwRQ1 {
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-right: 70px;
+}
+
+
+.orgfeed_button_group__5daXF{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.orgfeed_iconbtn_design__J_kVS {
+    background-color: #042A5B;
+    color: white;
+    height: 50px;
+    width: 70px;
+    border-radius: 16px;
+    font-weight: bold;
+   
+}
+
+.orgfeed_iconbtn_design__J_kVS:hover, 
+.orgfeed_button_design__pxvbO:hover {
+    background-color: #023E8A;
+}
+
+
+.orgfeed_button_design__pxvbO {
+    background-color: #042A5B;
+    height: 50px;
+    width: 150px;
+    border-radius: 16px;
+    font-weight: bold;
+}
+
